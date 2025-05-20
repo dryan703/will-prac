@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: ;
+}
+.header {
+    margin: 0 auto;
+    padding: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f0ebeb;
+    background-color: rgb(1, 1, 38);
+}
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: blue;
+}
+.name {
+    font-weight: 500;
+    margin-right: 150px;
+    font-size: 25px;
+}
+.lil {
+    color: green;
+}
+.search {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(79, 76, 76);
+    width: 360px;
+    height: 37px;
+}
+.search-input {
+    font-size: 16px;
+    font-family: 'lexend', sans-serif;
+    color: white;
+    margin-left: 14px;
+    outline: none;
+    background: transparent;
+    width: 300px;
+}
+.main {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 38);
+}
+.dash-con {
+    background-color: rgb(1, 1, 38);
+    margin: 19px;
+}
+.let {
+    text-align: justify;
+    color: white;
+    transition: 1s;
+    flex-wrap: wrap;
+}
+.dash {
+   margin-bottom: 100px;
+}
+.litt {
+    padding: 17px;
+}
+.crypto-swap {
+    text-align: justify;
+    border: 3px solid rgb(62, 60, 60);
+    background-color: rgb(1, 1, 38);
+    width: 760px;
+    border-radius: 7px;
+    color: white;
+}
+.crypto {
+    margin: 60px;
+}
+.crypto h4 {
+    margin-bottom: 30px;
+}
+.formm label {
+    display: block;
+    color: white;
+    margin-bottom: 7px;
+}
+.formm input {
+    width: 100%;
+    padding: 10px;
+    border: rgb(62, 60, 60) 2px solid;
+    border-radius: 5px;
+    background-color: rgb(62, 60, 60);
+}
+hr {
+    margin: 30px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.still p {
+    padding: 10px;
+}
+.para {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.crypto .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: rgb(49, 49, 235);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgb(49, 49, 235);
+    font-family: 'poppins';
+    font-size: 15px;
+    transition: 1s;
+}
+.crypto .btn:hover {
+    background-color: blue;
+    transition: 1s;
+}
+.pit {
+    display: flex;
+    border: 1px solid rgb(62, 60, 60);
+    margin: 25px;
+    border-radius: 7px;
+}
+.mig-con {
+    border: 3px solid rgb(62, 60, 60);
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(1, 1, 38);
+    margin-right: 12px;
+}
+.mig-cand {
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+.date {
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+
+}
+.dat2 {
+    color: green;
+}
+.tools {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    border-radius: 7px;
+}
+.let .litt:hover {
+    background-color: rgb(16, 16, 113);
+    transition: 1s;
+}@media (max-width: 768px) {
+    .logo {
+        font-size: 20px;
+    }
+    .name {
+        font-size: 15px;
+        margin-left: 70px;
+    }
+    .search {
+        display: none;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .litt {
+        display: none;
+    }
+    .crypto-swap {
+        margin-top: -130px;
+        margin-left: 10px;
+        width: 300px;
+    }
+    .crypto-swap .formm {
+        width: 220px;
+        margin-left: -20px;
+        
+    }
+    .crypto-swap .crypto h4 {
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    .crypto-swap .price {
+        width: 210px;
+        margin-left: -18px;
+    }
+    .crypto-swap .para {
+        width: 200px;
+        margin-left: -10px;
+    }
+    .crypto-swap .btn {
+        width: 220px;
+        margin-left: -18px;
+    }
+.exchange-con {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+}
