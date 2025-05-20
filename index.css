@@ -187,10 +187,10 @@ hr {
     .crypto-swap {
         margin-top: -130px;
         margin-left: 10px;
-        width: 300;
+        width: 300px;
     }
     .crypto-swap .formm {
-        width: 220;
+        width: 220px;
         margin-left: -20px;
         
     }
@@ -199,15 +199,15 @@ hr {
         margin-left: -20px;
     }
     .crypto-swap .price {
-        width: 210;
+        width: 210px;
         margin-left: -18px;
     }
     .crypto-swap .para {
-        width: 200;
+        width: 200px;
         margin-left: -10px;
     }
     .crypto-swap .btn {
-        width: 220;
+        width: 220px;
         margin-left: -18px;
     }
 .exchange-con {
