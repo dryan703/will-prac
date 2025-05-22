@@ -213,5 +213,8 @@ hr {
    .exchange-con {
         margin-left: 10px;
         margin-bottom: 5px;
-}
+    }
+    .lez {
+        width: 100%;
+    }
 }
