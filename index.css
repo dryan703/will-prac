@@ -188,6 +188,8 @@ hr {
         margin-top: -130px;
         margin-left: 10px;
         width: 410px;
+        margin-right: -10px;
+        
     }
     .crypto-swap .formm {
         width: 320px;
